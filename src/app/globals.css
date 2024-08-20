@@ -31,3 +31,62 @@ body {
     text-wrap: balance;
   }
 }
+
+
+@font-face {
+  font-family: 'AbrilFatface';
+  src: url('/fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AbrilFatface';
+  src: url('/fonts/Abril_Fatface/FontsFree-Net-Abril-W01-Fatface-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'NATS';
+  src: url('/fonts/NATS/NATS-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('/fonts/playfair/PlayfairDisplay-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('/fonts/playfair/PlayfairDisplay-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('/fonts/playfair/PlayfairDisplay-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+

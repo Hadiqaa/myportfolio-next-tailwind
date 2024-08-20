@@ -1,0 +1,43 @@
+.portfolio-text{
+    font-size: 12em;
+    line-height: 1.0;
+    word-spacing: 0.2em;
+
+}
+
+
+  .info-box {
+    position: absolute;
+    top: 56%;
+    right: 22%;
+    width: 21em;
+    height: 17em;
+    z-index: 20;
+    transform: translateY(-50%);
+  }
+  
+.custom-box{
+    position:relative;
+    top: 56%;
+    left: 56%;
+    width: 35em;
+    height: 42em;
+    background-color: #93633e;
+    z-index: 20;
+    transform: translateY(-50%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+      
+.about-me{
+    position: absolute;
+    top:77%;
+    left:8% 
+}
+
+
+.top-star-icon{
+    top: 8%;
+    left: -6%;
+    height: 7em;
+    width:  7em;
+}
