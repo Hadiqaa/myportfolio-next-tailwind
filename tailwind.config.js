@@ -17,6 +17,7 @@ module.exports = {
         'custom-yellow': '#fbad1d',
         'custom-beige' : '#dbd2c1',
         'custom-maroon' : "#852f34",
+        'custom-ligh-beige' : "#f6f1e4",
       },
       textShadow: {
         'text-border': '1px 1px 0 #fbad1d, -1px -1px 0 #fbad1d, 1px -1px 0 #fbad1d, -1px 1px 0 #fbad1d',
