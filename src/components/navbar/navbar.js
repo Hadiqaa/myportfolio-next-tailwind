@@ -1,14 +1,14 @@
 import Link from 'next/link';
-import './navbar.css';
+
 
 const Navbar = () => {
   return (
     <nav className="bg-custom-green backdrop-filter  w-full fixed top-0 left-0 z-50 py-4 sm:py-2">
-      <div className="nav-container mx-auto sm:px-3 ">
+      <div className="px-[6em]  ">
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center">
           <Link href="/" className="text-custom-beige text-4xl font-AbrilFatface ">
-             Hadiqa Sumbal Arshad
+             Hadiqa Sumbal
             </Link>
           </div>
           <div className="hidden md:block">
