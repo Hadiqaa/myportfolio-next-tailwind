@@ -1,9 +1,10 @@
 "use client";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import About from "@/pages/about/About";
 import HomePage from "../pages/homepage/HomePage";
 import Resume from "@/pages/resume/Resume";
 import Activities from "@/pages/activities/Activities";
+import { initializeAnimations } from "@/utils/animations";
 import Rocket from "@/components/rocket/Rocket"; // Import the Rocket component
 
 export default function Home() {
@@ -16,11 +17,24 @@ export default function Home() {
   // Array of section references
   const sections = [homeRef, aboutRef, resumeRef, activitiesRef];
 
+  // Initialize animations when the component mounts
+  useEffect(() => {
+    // Add a small delay to ensure the DOM is fully loaded
+    const timeoutId = setTimeout(() => {
+      // Initialize all the cool animations
+      const cleanup = initializeAnimations();
+      
+      // Return cleanup function
+      return () => {
+        cleanup();
+      };
+    }, 500);
+    
+    return () => clearTimeout(timeoutId);
+  }, []);
+
   return (
     <main>
-      {/* Rocket Component */}
-      <Rocket sections={sections} /> {/* Pass section refs to the Rocket component */}
-
       {/* Sections with refs for scrolling */}
       <section ref={homeRef}>
         <HomePage />
